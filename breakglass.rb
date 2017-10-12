@@ -7,11 +7,11 @@
 class Breakglass < Formula
   desc "A command line tool to provide login credentials from Hashicorp Vault"
   homepage "https://github.com/apptio/breakglass"
-  version "0.2.3-c0a7cec"
+  version "0.3.0-752aaef"
 
   if Hardware::CPU.is_64_bit?
-    url "https://github.com/apptio/breakglass/releases/download/v0.2.3-c0a7cec/breakglass_0.2.3-c0a7cec_darwin_amd64.zip"
-    sha256 "bbfb3a37ebd8079d6d4daf5e42e81d997c2951957eba5fe3271957fcb63c3142"
+    url "https://github.com/apptio/breakglass/releases/download/v0.3.0-752aaef/breakglass_0.3.0-752aaef_darwin_amd64.zip"
+    sha256 "f2dee9153e7b53ebf5d68f1148528931e01fa818bd78e4f14af1dec983f79541"
   end
 
   def install
